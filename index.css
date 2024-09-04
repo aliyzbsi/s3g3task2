@@ -1,0 +1,56 @@
+/* Sayfamızdaki bütün elemanların sınırlarını görebilmek için geçici bir çizgi ekleyebiliriz. Bunu proje sonunda silebilirsiniz. */
+* {
+  border: 1px solid purple;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 750px;
+}
+
+/* css kurallarını buraya yazabilirsin */
+.gallery-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px 0;
+}
+
+.gallery-section img {
+  aspect-ratio: 1/3;
+  width: 18%;
+}
+
+header {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+header nav button {
+  padding: 15px;
+  font-size: 16px;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.social-items {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+}
